@@ -13,23 +13,24 @@ This serves as our repository and documentation of our software project. The doc
 
 ## Introduction
 
-The software project is a secure password generator which allows the user to generate passwords and passphrases. The program allows you to input certain criteria to add into the generated passwords/passphrase for added complexity and strength and to ouput the results on the screen for the user and optionally onto a text file to anaylsis
+The software project is a secure password generator script which was created in Python. It allows the user to generate passwords and passphrases. The program allows you to input certain criteria to add into the generated passwords/passphrase, for added complexity and strength. This software automates and provides users with randomly secure passwords/passphrase that outputs several generated passwords/passphrases onto the results on the screen for the user and optionally onto a text file to analysis 
 
 ## Team Structure and Roles
 
 Our team consists of two members:
- - Sebastian (13176443) - Work on python code, git documentation
- - Phoebe (13235673) - Work on flowchart, pseudocode, git documention
+ - Sebastian (13176443) - Work on python code, git / report documentation
+ - Phoebe (13235673) - Work on flowchart, pseudocode, git / report documentation 
 ---
 ## Problem Analysis and Requirements
 
 A thorough analysis of the problem presented in the case study and the specific requirements for the automation solution.
 When conducting an analysis, we looked towards what can be accomplished with the specifc requirements of implementing a automated solution. We are required to create this project with automation in mind as the main requirement throughout the entire process of the software project.
+
 # Design Process
 
 ## Conceptual Design
 
-Outline of the initial ideas and conceptual approach to the problem.
+The initial ideas we have come up for the secure password generator is to have automation in mind right in the beginning. When coming up with the software to generate passwords/passphrase we prompted to allow the user to only input in what they needed in their generated password/passphrase, while the rest of the program will handle the automation of generating a secure password/passphrase and outputting the results were needed by the user. This approach provides a simple and easy design towards good user experience provided by the script.
 
 ## Algorithm Design
 
@@ -69,42 +70,35 @@ ELSE:
 
 ## Software Design
 
-Explanation of the software design, including the choice of programming language and the software architecture.
+Our choice of programming language is python. Python is a simple to use programming language that allows for a broad amount of support and technicality. And simply python allows for creating easy automation tasks with pythons' simple syntax and collection of modules and libraries which make it very ideal for scripting repetitive tasks, which makes it an ideal programming language. After the choice of the programming langauge we decided on the IDE (integrated development environment) which we will use to write the python code, we decided on 'PyCharm' as our choice of IDE.
 
 # Implementation
 
 ## Code Development
 
-The actual code written for the project, with appropriate comments and explanations. If appropriate, this can just be a note to refer to a particular source code file or repository.
-
-```python
-#!/usr/bin/env python3
-
-def is_leap_year(year):
-    """Determine if a year is a leap year."""
-    if year % 4 != 0:
-        return False
-    elif year % 100 != 0:
-        return True
-    elif year % 400 == 0:
-        return True
-    else:
-        return False
-
-# Input from the user
-year = int(input("Enter a year: "))
-
-# Check and display the result
-if is_leap_year(year):
-    print(f"{year} is a leap year.")
-else:
-    print(f"{year} is not a leap year.")
-```
+[SecurePasswordGenerator](SecurePasswordGenerator.py)
 
 ## Testing and Debugging
 
-Documentation of the testing process, including test cases, results, and any debugging carried out.
+Testing process 
 
+To test and develop our code we used PyCharm as our IDE of choice. This environment provides code analysis, an integrated unit tester along with other tools to help the testing process is a success we’ve performed tests on certain factors of the software's code. Each test was conducted differently to ensure all parts of the program work as intended when it all comes together. Our test process consisted of running the program as intentional to see if any errors pop up, after a test was successful, we will next then perform another test with inputs and responses that aren’t usually inputs, this will test to see how our program will respond back and if any errors appear. We will than repeat to process after every iteration of our program. 
+
+Debugging 
+
+Throughout our implementation and development of the software project we have used PyCharm as our developing and debugging environment to perform numerous debugging methods. The debugging methods that we’ve have used were: 
+```
+    Running the entire program first as intended then see if the program will run into potential errors during run time 
+
+    Performing unit testing 
+
+    Performing print debugging 
+
+    Performing static analysis 
+````
+The first method is a simple one and lets us run the program like you normally would, to test if the program was successful or no. Using this method allowed us to easily find out after or during the runtime if there was something wrong and the program will tell us that 
+
+The second method of debugging we used was unit testing, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will work still work it intentionally should. 
 # Collaboration and Project Management
 
 ## Meeting Notes
