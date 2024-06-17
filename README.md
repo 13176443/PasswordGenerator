@@ -98,16 +98,27 @@ Throughout our implementation and development of the software project we have us
 ````
 The first method is a simple one and lets us run the program like you normally would, to test if the program was successful or no. Using this method allowed us to easily find out after or during the runtime if there was something wrong and the program will tell us that 
 
-The second method of debugging we used was unit testing, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will work still work it intentionally should. 
+The second method of debugging we used was **unit testing**, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will work still work it intentionally should.
+![UnitTest](https://github.com/13176443/PasswordGenerator/blob/main/Images/UnitTest.png)
+
+**(A sample of the code from the program in Pycharm, this code can be run by itself to test if the output is intended)**
+
+The third method we used was **print debugging**, in each line of code where we want something to happen, we’ve have added print statements. By adding print statements, it will output the results or message inside that print statement if a condition has been met.
+![PrintDebug](https://github.com/13176443/PasswordGenerator/blob/main/Images/PrintDebug.png)
+
+**(Snapshot of the code from the program during testing in PyCharm, with red arrows pointing at the print statements that were for testing its functionality)**
+
+The final method we use is static analysis, before execution we inspect the code of the software to check for any logical, syntax errors, to ensure the code is correctly written.
+
 # Collaboration and Project Management
 
 ## Meeting Notes
 
-Records of team meetings, including decisions made and action items.
+**TODO**
 
 ## Project Management Tools and Techniques
 
-Overview of the tools and methodologies used for project management and collaboration.
+The tools we used to manage our project is GitHub and OneDrive. By using GitHub we’re able to push our python code and documentation onto our repository. With a repository, we can easily push & commit any changes and modifications and upload any files onto our repository at any time. Having a GitHub repository allows for a centralization and collaboration platform needed for our team. We used OneDrive for the team members to share and collaborate on writing documentation for our software project. OneDrive allows for multiple people to work on the same document in real-time. 
 
 # Documentation
 
@@ -117,7 +128,7 @@ Detailed explanation of the code and architecture, aimed at future developers wh
 
 ## User Documentation
 
-User-friendly guide or manual, explaining how to use the automated solution. It is recommended that you add this as a separate document, rather than putting the documentation here.
+To view our User Documentation please click here: [User-Documentation](https://github.com/13176443/PasswordGenerator/blob/main/User%20Documentation.pdf)
 
 # Reflection and Conclusion
 
