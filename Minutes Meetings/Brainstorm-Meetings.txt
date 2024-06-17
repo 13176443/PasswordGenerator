@@ -1,0 +1,24 @@
+PRG-AT3-Group Assessment
+
+14/05/24
+Meeting 1: We formed our group and discussed the assessment and talked about what we wanted to do. We had a look at the criteria and possible options towards completing the team [collaborative] project.
+
+
+21/05/24
+Meeting 2: After discussion of the first meeting, we selected the option 'secure password generator'. We started to work on the flow chart and python code in the early stages of the assesment.
+
+
+28/05/24
+Meeting 3: After choosing which software project we would like to do, we begun to work on our drafts for the flow chart,  python code and pseudocode.
+
+
+4/06/24
+Meeting 4: We continued to do more work on the draft of our software project. We finished the flow chart and inserted into the word document that we made for the assessment.
+
+
+11/06/24
+Meeting 5: We created the repository on github for our collaborative project, and added the team members to the repository to collaborate on the assessment. We are also going to work on the python code and start to create the pseudocode. We have inserted the draft into the github.
+
+
+15/06/24
+Meeting 6: Finished writing the pseudocode for the collaborative project.
