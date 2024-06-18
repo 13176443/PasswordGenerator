@@ -132,7 +132,15 @@ To view our User Documentation please click here: [User-Documentation](https://g
 
 # Reflection and Conclusion
 
-Reflection on the challenges faced during the project and how they were overcome, along with a discussion of the learning outcomes and skills developed. Summarise the project results, its success in meeting the objectives, and potential areas for future development or improvement.
+Python code – the structure. 
+
+Flowchart – Which shapes go where, what to write for each decision that the flowchart was asking. 
+
+Pseudocode – received assistance and feedback from each other on how to structure and write out the pseudocode. 
+
+Our group had faced challenges with the python code, the flowchart and the pseudocode. To overcome these challenges, we worked together to find a solution for the flowchart and the pseudocode. And for the python code, we received assistance from our lecturer and from online sources, to help with the structure of the secure password generator. 
+The pseudocode, flowchart and python code are all completed, we must transfer our work to GitHub, we are utilising the template provided to us to create our report. 
+For the future, we will continue to support each other and ask for assistance if needed, to complete our collaborative project efficiently. 
 
 # Appendices
 
@@ -141,3 +149,8 @@ Links to the code repositories containing the final source code, separate user m
 Any other relevant materials, such as additional diagrams, extended testing documentation, or supplementary research.
 
 References: A list of all the sources referenced throughout the project.
+
+
+Link to our GitHub Repository: https://github.com/13176443/PasswordGenerator
+
+Utilised flow charts pdf from session 1, exercise 1 in the Gordon online automate processes unit. 
