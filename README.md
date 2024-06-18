@@ -7,13 +7,13 @@ Authors:
 
 # Executive Summary
 
-This serves as our repository and documentation of our software project. The documentation consists of our project overview, the team behind the project and the process of our project. In the project overview we have the information about the introduction, requirements and processes of our software project
+This report serves as our documentation of our software project. The report contains all the information consists of our project overview, the team behind the project and the process of our project. In the project overview we have the information about the introduction, requirements and processes of our software project.
 
 # Project Overview
 
 ## Introduction
 
-The software project is a secure password generator script which was created in Python. It allows the user to generate passwords and passphrases. The program allows you to input certain criteria to add into the generated passwords/passphrase, for added complexity and strength. This software automates and provides users with randomly secure passwords/passphrase that outputs several generated passwords/passphrases onto the results on the screen for the user and optionally onto a text file to analysis 
+The software project is a secure password generator script which was created in Python. It allows the user to generate passwords and passphrases. The program allows you to input certain criteria to add into the generated passwords/passphrase, for added complexity and strength. This software automates and provides users with randomly secure passwords/passphrase that outputs several generated passwords/passphrases onto the results on the screen for the user and optionally onto a text file to analysis. 
 
 ## Team Structure and Roles
 
@@ -23,14 +23,13 @@ Our team consists of two members:
 ---
 ## Problem Analysis and Requirements
 
-A thorough analysis of the problem presented in the case study and the specific requirements for the automation solution.
-When conducting an analysis, we looked towards what can be accomplished with the specifc requirements of implementing a automated solution. We are required to create this project with automation in mind as the main requirement throughout the entire process of the software project.
+When conducting an analysis, we looked towards what can be accomplished with the specific requirements of implementing an automated solution. We are required to create this project with automation in mind, throughout the entire process of our software project.
 
 # Design Process
 
 ## Conceptual Design
 
-The initial ideas we have come up for the secure password generator is to have automation in mind right in the beginning. When coming up with the software to generate passwords/passphrase we prompted to allow the user to only input in what they needed in their generated password/passphrase, while the rest of the program will handle the automation of generating a secure password/passphrase and outputting the results were needed by the user. This approach provides a simple and easy design towards good user experience provided by the script.
+The initial ideas we have come up for the secure password generator is to have automation in mind right in the beginning. When coming up with the software to generate passwords/passphrase, we were prompted to allow the user to only input in what they needed in their generated password/passphrase. The rest of the program will handle the automation of generating a secure password/passphrase and outputting the results were needed by the user. This approach provides a simple and easy design towards good user experience provided by the software.
 
 ## Algorithm Design
 
@@ -39,7 +38,7 @@ Detailed presentation of the developed algorithm, including flowcharts and pseud
 
 ## Software Design
 
-Our choice of programming language is python. Python is a simple to use programming language that allows for a broad amount of support and technicality. And simply python allows for creating easy automation tasks with pythons' simple syntax and collection of modules and libraries which make it very ideal for scripting repetitive tasks, which makes it an ideal programming language. After the choice of the programming langauge we decided on the IDE (integrated development environment) which we will use to write the python code, we decided on 'PyCharm' as our choice of IDE.
+Our choice of programming language is python. Python is a simple to use programming language that allows for a broad amount of support and technicality. And simply python allows for creating easy automation tasks with pythons' simple syntax and collection of modules and libraries which make it very ideal for scripting repetitive tasks, and an ideal programming language. After the choice of the programming language we decided on the IDE (integrated development environment) which we will use to write the python code, we decided on 'PyCharm' as our choice of IDE to develop out software project.
 
 # Implementation
 
@@ -51,11 +50,11 @@ Our choice of programming language is python. Python is a simple to use programm
 
 Testing process 
 
-To test and develop our code we used PyCharm as our IDE of choice. This environment provides code analysis, an integrated unit tester along with other tools to help the testing process is a success we’ve performed tests on certain factors of the software's code. Each test was conducted differently to ensure all parts of the program work as intended when it all comes together. Our test process consisted of running the program as intentional to see if any errors pop up, after a test was successful, we will next then perform another test with inputs and responses that aren’t usually inputs, this will test to see how our program will respond back and if any errors appear. We will than repeat to process after every iteration of our program. 
+To test and develop our code we used PyCharm as our IDE of choice. This environment provides code analysis, an integrated unit tester along with other tools which will help the testing process to be a success, we’ve performed tests on certain factors of the software's code. Each test was conducted differently to ensure all parts of the program work as intended when it all comes together. Our test process consisted of running the program as intentional to see if any errors pop up, after a test was successful, we will then perform another test with inputs and responses that aren’t usually valid, this will test to see how our program will respond back and if any errors appear. We will then repeat to process after every iteration of our program.
 
 Debugging 
 
-Throughout our implementation and development of the software project we have used PyCharm as our developing and debugging environment to perform numerous debugging methods. The debugging methods that we’ve have used were: 
+Throughout our implementation and development of the software project we have used PyCharm as our developing and debugging environment, to perform numerous debugging methods. The debugging methods that we’ve have used were:
 ```
     Running the entire program first as intended then see if the program will run into potential errors during run time 
 
@@ -87,13 +86,13 @@ To view out Meeting Notes please click here: [Meeting-Notes](https://github.com/
 
 ## Project Management Tools and Techniques
 
-The tools we used to manage our project is GitHub and OneDrive. By using GitHub we’re able to push our python code and documentation onto our repository. With a repository, we can easily push & commit any changes and modifications and upload any files onto our repository at any time. Having a GitHub repository allows for a centralization and collaboration platform needed for our team. We used OneDrive for the team members to share and collaborate on writing documentation for our software project. OneDrive allows for multiple people to work on the same document in real-time. 
+The tools we used to manage our project is GitHub and OneDrive. By using GitHub we’re able to push our python code and documentation onto our repository. With a repository, we can easily push & commit any changes and modifications, as well as upload any files onto our repository at any time. Having a GitHub repository allows for a centralization and collaboration platform needed for our team. We used OneDrive for the team members to share and collaborate on writing documentation for our software project. OneDrive allows for multiple people to work on the same document in real-time. 
 
 # Documentation
 
 ## Developer Documentation
 
-Detailed explanation of the code and architecture, aimed at future developers who might work on or maintain the project.
+Our developer documentation is located here: [Developer-Documentation](https://github.com/13176443/PasswordGenerator/blob/main/Developer%20Documentation.pdf)
 
 ## User Documentation
 
@@ -101,24 +100,17 @@ To view our User Documentation please click here: [User-Documentation](https://g
 
 # Reflection and Conclusion
 
-Python code – the structure. 
+To summaries our completion of the software project, we can say we have successfully met the objectives and requirements set out to us in creating an automated program. We have faced some challenges during the project which have been overcome. Some of these challenges relate to figuring out the structure and automation of the program. How the flow for the flowchart will look, and how the pseudocode should be set out. 
 
-Flowchart – Which shapes go where, what to write for each decision that the flowchart was asking. 
+To figure out to structure the python code a lot of ideas were put on how the automation process will work, with multiple iterations had to be made. Eventually a structure for the algorithm was settled, once the ideas were put into place everything went smoothly with creating the python script. 
 
-Pseudocode – received assistance and feedback from each other on how to structure and write out the pseudocode. 
+To figure out how to create the flowchart from our ideas, we brainstormed multiple tools that can easily create a flowchart for us, eventually we settled with tldraw, a site where you can drag and drop shapes that represent the algorithm and structure of the program, this site allowed for easily prototyping during the brainstorming phase. For the flowchart, we would figure out what boxes/shapes correspond to the process, how to understand what it means, and what to write for each decision that the flowchart was asking (etc input/output). 
 
-Our group had faced challenges with the python code, the flowchart and the pseudocode. To overcome these challenges, we worked together to find a solution for the flowchart and the pseudocode. And for the python code, we received assistance from our lecturer and from online sources, to help with the structure of the secure password generator. 
-The pseudocode, flowchart and python code are all completed, we must transfer our work to GitHub, we are utilising the template provided to us to create our report. 
-For the future, we will continue to support each other and ask for assistance if needed, to complete our collaborative project efficiently. 
+To figure out the pseudocode we followed much of how the python code will be structured except that it will be a bit more English orientated and understanding how you can implement the pseudocode into actual code. For the pseudocode, we received assistance and feedback from each other on how to structure and write it out properly. 
+
+These challenges helped us learn and develop a better understanding of how to create our ideas and decisions and put them into actual code and create the functionally and structure we have designed. We believe there may be additional room for improvement in our script for future improvement, such as moving the script to be more object oriented, however this can be left for future development
 
 # Appendices
-
-Links to the code repositories containing the final source code, separate user manuals, presentations, or other documentation (if any).
-
-Any other relevant materials, such as additional diagrams, extended testing documentation, or supplementary research.
-
-References: A list of all the sources referenced throughout the project.
-
 
 Link to our GitHub Repository: https://github.com/13176443/PasswordGenerator
 
