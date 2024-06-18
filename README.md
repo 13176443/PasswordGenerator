@@ -64,9 +64,9 @@ Throughout our implementation and development of the software project we have us
 
     Performing static analysis 
 ````
-The first method is a simple one and lets us run the program like you normally would, to test if the program was successful or no. Using this method allowed us to easily find out after or during the runtime if there was something wrong and the program will tell us that 
+The first method is a simple one and lets us run the program like you normally would, to test if the program was successful or not. Using this method allowed us to easily find out after or during the runtime if there was something wrong and the program will tell us. 
 
-The second method of debugging we used was **unit testing**, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will work still work it intentionally should.
+The second method of debugging we used was unit testing, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will still work as it should.
 ![UnitTest](Images/UnitTest.png)
 
 **(A sample of the code from the program in Pycharm, this code can be run by itself to test if the output is intended)**
@@ -82,7 +82,7 @@ The final method we use is static analysis, before execution we inspect the code
 
 ## Meeting Notes
 
-To view out Meeting Notes please click here: [Meeting-Notes](https://github.com/13176443/PasswordGenerator/blob/main/Minutes%20Meetings/Brainstorm-Meetings.txt)
+To view out Meeting Notes please click here: [Meeting-Notes](Minutes%20Meetings/Brainstorm-Meetings.txt)
 
 ## Project Management Tools and Techniques
 
@@ -92,11 +92,11 @@ The tools we used to manage our project is GitHub and OneDrive. By using GitHub 
 
 ## Developer Documentation
 
-Our developer documentation is located here: [Developer-Documentation](https://github.com/13176443/PasswordGenerator/blob/main/Developer%20Documentation.pdf)
+Our developer documentation is located here: [Developer-Documentation](Developer%20Documentation.pdf)
 
 ## User Documentation
 
-To view our User Documentation please click here: [User-Documentation](https://github.com/13176443/PasswordGenerator/blob/main/User%20Documentation.pdf)
+To view our User Documentation please click here: [User-Documentation](User%20Documentation.pdf)
 
 # Reflection and Conclusion
 
