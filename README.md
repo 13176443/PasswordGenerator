@@ -114,7 +114,7 @@ The final method we use is static analysis, before execution we inspect the code
 
 ## Meeting Notes
 
-**TODO**
+To view out Meeting Notes please click here: [Meeting-Notes](https://github.com/13176443/PasswordGenerator/blob/main/Minutes%20Meetings/Brainstorm-Meetings.txt)
 
 ## Project Management Tools and Techniques
 
