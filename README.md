@@ -34,39 +34,8 @@ The initial ideas we have come up for the secure password generator is to have a
 
 ## Algorithm Design
 
-Detailed presentation of the developed algorithm, including flowcharts and pseudocode. See [this guide on creating mermaid flowcharts](https://mermaid.js.org/syntax/flowchart.html).
+Detailed presentation of the developed algorithm, including flowcharts and pseudocode. See our flowchart ![Image](Images/COMPLETED%20FLOWCHART.png)
 
-```mermaid
-flowchart LR
-    A(Start) --> B[Input Year]
-    B --> C{Is year divisible by 4?}
-    C -- Yes --> D{Is year divisible by 100?}
-    C -- No --> E[Not a leap year]
-    D -- Yes --> F{Is year divisible by 400?}
-    D -- No --> G[Leap year]
-    F -- Yes --> G
-    F -- No --> E
-    G --> H(End)
-    E --> H(End)
-```
-
-```
-FUNCTION isLeapYear(year):
-    IF year MODULO 4 IS NOT EQUAL TO 0:
-        RETURN False
-    ELSE IF year MODULO 100 IS NOT EQUAL TO 0:
-        RETURN True
-    ELSE IF year MODULO 400 IS EQUAL TO 0:
-        RETURN True
-    ELSE:
-        RETURN False
-
-year = INPUT "Enter a year: "
-IF isLeapYear(year):
-    PRINT year, "is a leap year."
-ELSE:
-    PRINT year, "is not a leap year."
-```
 
 ## Software Design
 
@@ -99,12 +68,12 @@ Throughout our implementation and development of the software project we have us
 The first method is a simple one and lets us run the program like you normally would, to test if the program was successful or no. Using this method allowed us to easily find out after or during the runtime if there was something wrong and the program will tell us that 
 
 The second method of debugging we used was **unit testing**, in each iteration of our program we have tested individual bits and parts of our code before implementing to the main, so this means before we add a new part of code to the main program we test it in its self to ensure when that the part of the code is implemented into the main, it will work still work it intentionally should.
-![UnitTest](https://github.com/13176443/PasswordGenerator/blob/main/Images/UnitTest.png)
+![UnitTest](Images/UnitTest.png)
 
 **(A sample of the code from the program in Pycharm, this code can be run by itself to test if the output is intended)**
 
 The third method we used was **print debugging**, in each line of code where we want something to happen, we’ve have added print statements. By adding print statements, it will output the results or message inside that print statement if a condition has been met.
-![PrintDebug](https://github.com/13176443/PasswordGenerator/blob/main/Images/PrintDebug.png)
+![PrintDebug](Images/PrintDebug.png)
 
 **(Snapshot of the code from the program during testing in PyCharm, with red arrows pointing at the print statements that were for testing its functionality)**
 
